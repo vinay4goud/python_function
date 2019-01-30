@@ -1,0 +1,41 @@
+'''
+ python_function is  a  block  of code which  only runs  whne it is called .
+ in geneal set of statements calling through a label
+ '''
+ 
+# in python  a  function  is defined using  the def keyword 
+
+def my_function():
+  print("hellow  ")
+  
+# calling a  function 
+# to call a   function  ,  use the function name  followed by parenthesis
+
+myfunction()  # it prints whatever we are trying to call from the  above function
+
+#parameters can be passed in side parentheses
+
+def my_function(fname):
+  print(fname +" refsnes")
+  
+my_function("emil") # output will be  emil refsnes
+
+
+# we can also provide default parameeter value , so that it avooids  from errors  and  prints default values  
+
+def b(country = "india")
+  print("i am from"+ country)
+  
+b("sweden") # output is "i am fro sweden" 
+b()          # default # output is "i am fro india"
+
+# return values
+# to let a function  return a value , use the return statement
+
+def  a(x):
+  return 5 * x
+  
+print (a(3)) # output  will be  15 
+
+
+
